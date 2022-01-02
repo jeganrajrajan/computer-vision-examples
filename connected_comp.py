@@ -127,6 +127,6 @@ def connect_compo_filter():
 
 
 
-connected_component_label(r'D:\computer_vision\data\connect_comp.png')
-connect_with_stats()
+# connected_component_label(r'D:\computer_vision\data\connect_comp.png')
+# connect_with_stats()
 connect_compo_filter()

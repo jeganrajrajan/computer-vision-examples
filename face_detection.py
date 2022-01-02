@@ -22,7 +22,8 @@ for (x, y, w, h) in rects:
     x = x-10
     y = y-20
     # draw the face bounding box on the image
-    cv2.rectangle(image, (x, y), (x + w+15, y + h+30), (0, 255, 0), 2)
+    # cv2.rectangle(image, (x, y), (x + w+15, y + h+30), (0, 255, 0), 2)
+    cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 # show the output image
 cv2.imshow("Image", image)
 cv2.waitKey(0)
